@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: aqua;
+  
 }
 
 .App-logo {
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.LikeCounter{
+  text-align: center;
+}
+.heading{
+  color: orange;
+}
+.body{
+  background-color: aqua;
+}
+.poll-plans{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap:5px;
 }
